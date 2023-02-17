@@ -10,21 +10,21 @@
     <link rel="stylesheet" href="assets\css\index.css">
     <link rel="stylesheet" href="assets\css\grid.css">
     <link rel="stylesheet" href="assets\css\responsive.css">
-    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
 
 <body>
-   <div class="app">
+ <div class="app">
     <header class="header">
             <nav class="header__navbar">
                 <ul class="header__navbar-list">
                     <li class="header__navbar-logo">
-                        <img src="./assets/imgs/logo.png" alt="LO">
+                        <img src="./assets/imgs/logo.svg" alt="LO">
                     </li>
                 </ul>
-                <ul class="header__navbar-list">
+                <div class="header__navbar-list header__right ">
                     <li class="header__navbar-menu">
                         <a class="header__navbar-item">GIỚI THIỆU</a>
                     </li>
@@ -40,20 +40,18 @@
                     <li class="header__navbar-menu">
                         <a class="header__navbar-item">LIÊN HỆ</a>
                     </li>
-                </ul>
-                <ul class="header__navbar-list header_search ">
-                    <li class="header__navbar-right">
-                        <button class="header__search-btn">
-                            <i class="header__search-btn-icon fa fa-search" aria-hidden="true"></i>
-                        </button>
-                    </li>
-                    <li class="header__navbar-right">
-                        <img  class="header_navbar-lang" src="./assets/imgs/USlang.png" alt="">
-                    </li>
-                    <li class="header__navbar-right">
-                        <img class="header_navbar-lang" src="./assets/imgs/VNlang.png" alt="">
-                    </li>
-                </ul>
+                    <div class="header__navbar-list header_search ">
+                        <li class="header__navbar-right">                        
+                                <i class="header__search-btn-icon fa fa-search" aria-hidden="true"></i>                          
+                        </li>
+                        <li class="header__navbar-right">
+                           <img src="assets/imgs/Ellipse 7.svg" alt="US">
+                        </li>
+                        <li class="header__navbar-right">
+                           <img src="assets/imgs/Ellipse 8.svg" alt="VN">
+                        </li>
+                    </div>
+                </div>    
     </header>
 
     <section class="Video">     
@@ -62,7 +60,7 @@
                 <source src="https://masterisehome.mangoads.com.vn/layoutnew/assets/images/video2.mp4" type="video/mp4">
             </video>
             <div class="videoContainer__text">
-                <img src="./assets/imgs/SubLogo.png" alt="">
+                <img src="./assets/imgs/subLogo.svg" alt="AVP">
                 <p>
                     <a href="">Xem video</a>
                 </p>
@@ -78,11 +76,187 @@
         <div class="grid wide">
             <div class="field">
                 <p class="field__text">LĨNH VỰC KINH DOANH</p>
-                <img src="./assets/imgs/Triangle.png" alt="">
+                <img src="./assets/imgs/triangle.svg" alt="">
+            </div>
+            <div class="subMenu__slide">
+                    <div class="tiles-container" >
+                      <div class="tile item">
+                        <div class="tile-inner content">
+                         <img  class="tile-img" src="./assets/imgs/subMenu1.svg" alt="Viên nén gỗ">
+                         <div class="subMenu__slide-text">
+                            <span class="subMenu__slide-mainText">VIÊN GỖ</span>
+                            <span class="subMenu__slide-mainText">NÉN</span>
+                            <span class="subMenu__slide-subText">Xem chi tiết</span>
+                         </div>
+                        </div>
+                      </div>
+                      <div class="tile item">
+                        <div class="tile-inner content">
+                            <img  class="tile-img" src="./assets/imgs/subMenu2.svg" alt="Dăm gỗ">
+                            <div class="subMenu__slide-text">
+                               <span class="subMenu__slide-mainText">Dăm</span>
+                               <span class="subMenu__slide-mainText">Gỗ</span>
+                               <span class="subMenu__slide-subText">Xem chi tiết</span>
+                            </div>
+                        </div>    
+                      </div>
+                      
+                      <div class="tile item ">
+                        <div class="tile-inner content">
+                            <img class="tile-img" src="./assets/imgs/subMenu3.svg" alt="Công nghiệp giấy">
+                            <div class="subMenu__slide-text">
+                               <span class="subMenu__slide-mainText">Công nghiệp</span>
+                               <span class="subMenu__slide-mainText">Giấy</span>
+                               <span class="subMenu__slide-subText">Xem chi tiết</span>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="tile item">
+                        <div class="tile-inner content">
+                            <img class="tile-img" src="./assets/imgs/subMenu4.svg" alt="Công nghiệp than">
+                            <div class="subMenu__slide-text">
+                               <span class="subMenu__slide-mainText">Công nghiệp</span>
+                               <span class="subMenu__slide-mainText">Than</span>
+                               <span class="subMenu__slide-subText">Xem chi tiết</span>
+                            </div>
+                        </div>
+                      </div> 
+                    </div> 
             </div>
         </div>
     </section>
-   </div>
+
+    <section class="specialNumber">
+        <div class="grid wide">
+            <div class="field">
+                <p class="field__text">CON SỐ ẤN TƯỢNG</p>
+                <img src="./assets/imgs/triangle.svg" alt="">
+            </div>
+            <div class="specNum">
+                <div class="specNum__map">
+                    <img class="specNum__map-img" src="./assets/imgs/map2.svg" alt="An Việt Phát trồng trừng"> 
+                </div>
+                <div class="specNum__tree">
+                    <img class="specNum__tree-img"  src="./assets/imgs/map1.svg" alt="An Việt Phát trụ sở">
+                </div>
+               <div class="specNum__textContainer">
+                    <div class="specNum__textTitle">22400 HECTA</div>
+                    <div class="specNum__textDetail">RỪNG TRỒNG BỀN VỮNG</div>
+                    <div class="specNum__textTitle">2000 NHÂN SỰ</div>
+                    <div class="specNum__textDetail">VÀ CÔNG TÁC VIÊN TRÊN KHẮP CẢ NƯỚC</div>
+                    <div class="specNum__textTitle">40+ VPĐD</div>
+                    <div class="specNum__textDetail">TRẢI DÀI TỪ NAM RA BẮC</div>
+                    <div class="specNum__textTitle">20+ NHÀ MÁY</div>
+                    <div class="specNum__textDetail">VÀ KHO BÃI PHỤC VỤ SẢN XUẤT VÀ CUNG ỨNG CHO KHÁCH HÀNG</div>
+               </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="partner">
+        <div class="grid wide">
+            <div class="field">
+                <p class="field__text">KHÁCH HÀNG ĐỐI TÁC</p>
+                <img src="./assets/imgs/triangle.svg" alt="">
+            </div>
+            <div class="partner__brand">
+                <img src="./assets/imgs/Rectangle 53.svg" alt="">
+            </div>
+        </div>
+    </section>
+
+
+    <section class="news">
+        <div class="grid wide">
+            <div class="field field-long">
+                <p class="field__text field__text-long">LAN TỎA GIÁ TRỊ NHÂN VĂN</p>
+                <img src="./assets/imgs/triangle.svg" alt="">
+            </div>
+            <div class="news__category">
+                <button class="news__category-all">
+                    Tất cả
+                </button>
+                <button class="news__category-market">
+                    Thị trường
+                </button>
+                <button class="news__category-inner">
+                    Nội bộ 
+                </button>
+            </div>
+            <div class="news__contents">
+                <div class="news__content">
+                    <div class="news__content-img">
+                        <img src="./assets/imgs/news1.svg" alt="AVP News">
+                    </div>
+                    <div class="news__textContainer">
+                        <span class="news__textContainer-title">What is Lorem Ipsum</span>
+                        <span class="news__textContainer-detail">Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer...</span>
+                    </div>
+                </div>
+                <div class="news__content">
+                    <div class="news__content-img">
+                        <img src="./assets/imgs/news2.svg" alt="AVP News">
+                    </div>
+                    <div class="news__textContainer">
+                        <span class="news__textContainer-title">What is Lorem</span>
+                        <span class="news__textContainer-detail">Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer...</span>
+                    </div>
+                </div>
+                <div class="news__content">
+                    <div class="news__content-img">
+                        <img src="./assets/imgs/news3.svg" alt="AVP News">
+                    </div>
+                    <div class="news__textContainer">
+                        <span class="news__textContainer-title">What is Lorem</span>
+                        <span class="news__textContainer-detail">Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer...</span>
+                    </div>
+                </div>
+            </div>
+            <div class="news__category btn-seeMore">               
+                <button class="news__category-seeMore">
+                    Xem thêm
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="grid wide footer_line">
+            <div class="footer__mainLogo">
+                <img src="./assets/imgs/logoFooter.svg" alt="An Việt Phát">
+            </div>
+            <div class="footer__subLogo">
+                <div class="footer__subLogo-paper">
+                    <img src="./assets/imgs/AVPpaper.svg" alt="AVP paper">
+                </div>
+                <div class="footer__subLogo-timber">
+                    <img src="./assets/imgs/AVPtimber.svg" alt="AVP timber">
+                </div>
+                <div class="footer__subLogo-tran">
+                    <img src="./assets/imgs/AVPtran.svg" alt="AVP tran">
+                </div>
+                <div class="footer__subLogo-HTX">
+                    <img src="./assets/imgs/HTX.svg" alt="Hợp tác xã">
+                </div>
+            </div>
+            <div class="footer__textContainer">
+                <span class="footer__text-address">62-70 đường B4 KĐT Sala, P. An Lợi Đông, TP. Thủ Đức</span>
+                <span class="footer__text-phone">Điện thoại: 028.3636.4427 | Fax: 028.3636.4881</span>
+                <span class="footer__text-email">Email: info@anvietenergy.com</span>
+            </div>
+            <div class="footer__media">
+                <div class="footer__media-facebook">
+                    <img src="./assets/imgs/facebook.svg" alt="facebook">
+                </div>
+                <div class="footer__media-youtube">
+                    <img src="./assets/imgs/youtube.png" alt="youtube">
+                </div>
+            </div>
+        </div>
+    </footer>
+ </div>
+
 </body>
 
 </html>
